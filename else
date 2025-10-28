@@ -1,0 +1,118 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPKbvaYUuxtLTrj1A/Lhvuc",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/renesalasperea-design/else-salas/blob/main/else\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# sintaxis del comando else en python\n",
+        "# Estructura general:\n",
+        "if condicion:\n",
+        "    # codigo que se ejecuta si la condicion es verdadera\n",
+        "    pass # Added pass to make the example syntactically correct\n",
+        "else: # Corrected indentation and added colon\n",
+        "    # codigo que se ejecuta si la condicion es falsa\n",
+        "    pass # Added pass to make the example syntactically correct\n",
+        "# Ejemplos practicos:\n",
+        "edad = int(input(\"ingresa tu edad:\"))\n",
+        "if edad >= 18: # Changed condition to >= 18 for \"mayor de edad\"\n",
+        "    print(\"eres mayor de edad\") # Corrected output message\n",
+        "else: # Corrected indentation and added colon\n",
+        "    print(\"eres menor de edad\") # Corrected output message\n",
+        "# Ejemplo con ciclo y else:\n",
+        "for i in range(3): # Added colon\n",
+        "    pass # Added pass to make the example syntactically correct\n",
+        "else: # Corrected indentation and added colon\n",
+        "    print(\"el ciclo termino correctamente.\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "voaz4hS8MHc6",
+        "outputId": "770948cd-d12d-438d-8a8c-82572dec34c2"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "ingresa tu edad:18\n",
+            "eres mayor de edad\n",
+            "el ciclo termino correctamente.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Ejemplo usando if - else\n",
+        "edad = int(input(\"ingresa tu edad: \"))\n",
+        "if edad >= 18:\n",
+        "  print(\"eres mayor de edad\")\n",
+        "  print(\"puedes votar\")\n",
+        "  print(\"puedes manejar\")\n",
+        "  print(\"puedes tener licencia\")\n",
+        "else:\n",
+        "    print(\"eres menor de edad\")\n",
+        "    print(\"no puedes votar\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "9JIiRuwFN4C6",
+        "outputId": "685ac49d-8cc9-45d1-b283-59191adad21a"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "ingresa tu edad: 18\n",
+            "eres mayor de edad\n",
+            "puedes votar\n",
+            "puedes manejar\n",
+            "puedes tener licencia\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "yn2honqyPcME"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
